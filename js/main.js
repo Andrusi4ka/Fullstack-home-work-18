@@ -64,8 +64,9 @@ console.log('');
 
 // myBigInt
 console.log('7. Створіть змінну myBigInt і запишіть в неї число 123n (BigInt). Потім збільште його на 1 та запищіть в цю ж саму змінну.');
-let myBigInt = 123;
-console.log('myBigInt = ' + myBigInt + ', ' + typeof (+decimal2));
-myBigInt++;
-console.log('myBigInt = ' + myBigInt + ', ' + typeof (+decimal2));
+let myBigInt = 123n;
+console.log(myBigInt);
+myBigInt = myBigInt + 1n;
+console.log(myBigInt);
+
 
