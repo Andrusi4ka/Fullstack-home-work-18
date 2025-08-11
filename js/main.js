@@ -10,26 +10,43 @@ console.log('');
 // ім'я змінної: myNum, значення: 10
 console.log("1. ім'я змінної: myNum, значення: 10");
 let myNum = 10;
-console.log('myNum = ' + myNum + ', ' + typeof (myNum));
+console.log(`myNum = ${myNum}, ${typeof (myNum)}`);
+// console.log('myNum = ' + myNum + ', ' + typeof (myNum));
 console.log('');
+
+
+
 
 // ім'я змінної: myStr, значення: 'some string'
 console.log("2. ім'я змінної: myStr, значення: 'some string'");
 let myStr = 'some string';
-console.log('myStr = ' + myStr + ', ' + typeof (myStr));
+console.log(`myStr = ${myStr}, ${typeof (myStr)}`);
+// console.log('myStr = ' + myStr + ', ' + typeof (myStr));
 console.log('');
+
+
+
+
 
 // ім'я змінної: myBool, значення: true
 console.log("3. ім'я змінної: myBool, значення: true");
 let myBool = true;
-console.log('myBool = ' + myBool + ', ' + typeof (myBool));
+console.log(`myBool = ${myBool}, ${typeof (myBool)}`);
+// console.log('myBool = ' + myBool + ', ' + typeof (myBool));
 console.log('');
+
+
+
+
 
 // ім'я змінної: myArr, значення: 1, 2, 3, 4, 5
 console.log("4. ім'я змінної: myArr, значення: 1, 2, 3, 4, 5");
 let myArr = ['1', '2', '3', '4', '5'];
 console.log(myArr);
 console.log('');
+
+
+
 
 
 // ім'я змінної: myObj, значення: first: 'First Name', last: 'Last Name'
@@ -52,7 +69,8 @@ console.log('');
 // decimal2
 console.log('6. Відформатуйте ціле число, яке зберігається в змінній myNum, щоб отримати результат з 2 знаками після коми. Результат збережіть у змінній decimal2');
 let decimal2 = myNum.toFixed(2);
-console.log('decimal2 = ' + decimal2 + ', ' + typeof (+decimal2));
+console.log(`decimal2 = ${decimal2}, ${typeof (+decimal2)}`);
+// console.log('decimal2 = ' + decimal2 + ', ' + typeof (+decimal2));
 console.log('');
 
 /*
